@@ -95,9 +95,9 @@ class PruebaClipper extends CustomClipper<Path> {
           center: Offset(halfWidth, size.height / 2),
           radius: halfWidth,
         ),
-        pi, // Angulo inicial (180 grados)
-        -pi, // Angulo de barrido (-180 grados, para formar la mitad del círculo hacia abajo)
-        false, // No usar el radio del círculo como ancho de línea
+        pi, 
+        -pi, 
+        false, 
       )
       ..lineTo(size.width, 0.0);
 
