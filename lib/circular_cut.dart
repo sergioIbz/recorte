@@ -17,8 +17,8 @@ class CircularCut extends CustomClipper<Path> {
         -pi,
         false,
       )
-      ..lineTo(size.width, -100)
-      ..lineTo(0, -100)
+      ..lineTo(size.width, -200)
+      ..lineTo(0, -200)
       ..close();
 
     return path;
